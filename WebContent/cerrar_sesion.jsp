@@ -1,15 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Banco Estado</title>
 </head>
 <body>
 	<% 
-	session.invalidate(); //Aca se esta cerrando la sesión.
-	response.sendRedirect("index.html"); //Eedirecciona automaticamente a "index.html".
+	session.invalidate(); //Aca se esta cerrando la sesiÃ³n.
+	response.sendRedirect("index.html"); //Redirecciona automaticamente a "index.html".
 	%>
 </body>
 </html>

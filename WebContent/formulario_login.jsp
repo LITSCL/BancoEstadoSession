@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Banco Estado</title>
 </head>
 <body>
@@ -11,10 +11,10 @@
 		<!-- Se envian los datos las Servlet llamado ValidaUsuario. -->
 		<label>Rut</label>
 		<input type="text" name="usuario"><br/>
-		<label>Contraseña</label>
+		<label>ContraseÃ±a</label>
 		<input type="text" name="clave"><br/> <input type="submit" value="Ingresar">
 	</form>
-	${error} <!-- Mostrando el error mediante una expresión de lenguaje. -->
+	${error} <!-- Mostrando el error mediante una expresiÃ³n de lenguaje. -->
 
 <% 
 //Esto es otra forma de mostrar el error.
