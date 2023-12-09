@@ -29,7 +29,7 @@ public class Listener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce)  { 
        	List<Usuario> usuarios = new ArrayList<Usuario>(); //Se crea una lista de tipo Usuario.
-        usuarios.add(new Usuario("19.757.106-1", "123")); //Se crea un objeto de tipo Usuario utilizando el método contructor y se almacena en la lista.
+        usuarios.add(new Usuario("19.757.106-1", "123")); //Se crea un objeto de tipo Usuario utilizando el mÃ©todo contructor y se almacena en la lista.
         usuarios.add(new Usuario("19.757.106-2", "123"));
         usuarios.add(new Usuario("19.757.106-3", "123"));
         usuarios.add(new Usuario("19.757.106-4", "123"));
